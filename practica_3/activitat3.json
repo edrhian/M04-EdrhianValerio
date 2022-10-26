@@ -1,0 +1,31 @@
+{
+    "bookstore":{
+        "book":{
+            "title":"La fundación",
+            "publisher":"Buero Vallejo",
+            "cover":"Dura",
+            "price":"10€"
+        },
+
+        "book":{
+            "title":"One Piece",
+            "publisher":"Eiichiro Oda",
+            "cover":"Blanda",
+            "price":"12€"
+        },
+
+        "book":{
+            "title":"El corredor del laberinto",
+            "publisher":"James Dashner",
+            "cover":"Dura",
+            "price":"11€"
+        },
+
+        "book":{
+            "title":"Harry Potter",
+            "publisher":"Joanne Rowling",
+            "cover":"Dura",
+            "price":"15€"
+        }
+    }
+}

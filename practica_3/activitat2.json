@@ -1,0 +1,28 @@
+{
+    "students": {
+        "student": {
+            "name": "Edrhian",
+            "surname": "Valerio",
+            "email": "evalerio@gmail.com",
+            "dni": "27240137X"
+        },
+        "student": {
+            "name": "Mustapha",
+            "surname": "Bouleili",
+            "email": "mbouleili@gmail.com",
+            "dni": "27880137Z"
+        },
+        "student": {
+            "name": "Lautaro",
+            "surname": "Fleitas",
+            "email": "lfleitas@gmail.com",
+            "dni": "27212177Y"
+        },
+        "student": {
+            "name": "Gabriel",
+            "surname": "Reymundo",
+            "email": "greymundo@gmail.com",
+            "dni": "27269134X"
+        }
+    }
+}

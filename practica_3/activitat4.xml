@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arxiu XML sobre una botiga de llibres i les dades dels llibres (titol, publicador, etc.)-->
+
+<bookstore>
+    <book>
+        <title>La fundación</title>
+        <publisher>Buero Vallejo</publisher>
+        <cover>Dura</cover>
+        <price>10€</price>
+    </book>
+    <book>
+        <title>One Piece</title>
+        <publisher>Eiichiro Oda</publisher>
+        <cover>Blanda</cover>
+        <price>12€</price>
+    </book>
+    <book>
+        <title>El corredor del laberinto</title>
+        <publisher>James Dashner</publisher>
+        <cover>Dura</cover>
+        <price>11€</price>
+    </book>
+    <book>
+        <title>Harry Potter</title>
+        <publisher>Joanner Rowling</publisher>
+        <cover>Dura</cover>
+        <price>15€</price>
+    </book>
+</bookstore>

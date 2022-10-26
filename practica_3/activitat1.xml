@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+<!-- Alumne 1 -->
+    <student>
+        <name>Edrhian</name>
+        <surname>Valerio</surname>
+        <email>evalerio@gmail.com</email>
+        <dni>27240137X</dni>
+    </student>
+<!-- Alumne 2 -->
+    <student>
+        <name>Mustapha</name>
+        <surname>Bouleili</surname>
+        <email>mbouleili@gmail.com</email>
+        <dni>27880137Z</dni>
+    </student>
+<!-- Alumne 3 -->
+    <student>
+        <name>Lautaro</name>
+        <surname>Fleitas</surname>
+        <email>lfleitas@gmail.com</email>
+        <dni>27212177Y</dni>
+    </student>
+<!-- Alumne 4 -->
+    <student>
+        <name>Gabriel</name>
+        <surname>Reymundo</surname>
+        <email>greymundo@gmail.com</email>
+        <dni>27269134X</dni>
+    </student>
+</students>

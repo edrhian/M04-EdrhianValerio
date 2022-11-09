@@ -1,0 +1,24 @@
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 3px solid black;
+    border-collapse: inherit;
+    padding: 5px;
+}
+caption{
+    color: crimson;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+th{
+    background-color: orange;
+}
+td.data{
+    background-color: coral;
+}
+td.joc{
+    background-color: lightsalmon;
+}
+td.platform{
+    background-color: peru;
+}

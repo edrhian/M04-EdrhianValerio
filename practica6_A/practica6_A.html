@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>practica6_A</title>
+    </head>
+    <body>
+        <!--Informació de l'usuari, input de text i numeros-->
+        <form action="arxiuExtern.php">
+            <label>Nom</label>
+            <input type="text" name="nom"><br>
+            <br><label>Cognom</label>
+            <input type="text" name="cognom"><br>
+            <br><label>Edat</label>
+            <input type="number" name="edat"><br> 
+        </form> <br>
+        <p>Cicle formatiu que es vol cursar l'any vinent</p>
+        <!--Cfgs que es vol cursar l'any vinent, selecció de radio-->
+        <form> 
+            <label>DAM</label> 
+            <input type="radio" name="cfgs" checked><br> <!--Opció pretederminada-->
+            <label>ASIX</label>
+            <input type="radio" name="cfgs"><br>
+            <label>Altre...</label>
+            <input type="radio" name="cfgs">
+        </form> <br>
+        <p>Marca les teves aficions:</p>
+        <!-- Aficions, selecció multiple de caixa-->
+        <form> 
+            <label>Estudiar</label>
+            <input type="checkbox" checked><br> <!--Opció pretederminada-->
+            <label>ASIX</label>
+            <input type="checkbox"><br>
+            <label>Llibres</label>
+            <input type="checkbox"><br>
+            <label>Jugar a Magic</label>
+            <input type="checkbox"><br>
+            <label>Fer burilles</label>
+            <input type="checkbox"><br>
+            <label>Altres</label>
+            <textarea name="altres_aficions" cols="50" rows="10"></textarea>
+        </form><br>
+        <!--Estandard de HTML preferit, selecció de caixa-->
+        <form> 
+            <label>L'estàndard d'HTML que més m'agrada</label>
+            <select name="estàndard">
+                <option value="HTML_4.01">HTML 4.01</option>
+                <option value="XHTML_1.0">XHTML 1.0</option>
+                <option value="HTML5" selected>HTML5</option> <!--Opció pretederminada-->
+            </select>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>practica6_B</title>
+    </head>
+    <body>
+        <!-- Informació de l'alumne que és fa amb imput text i number. -->
+        <form action="arxiuExtern.php">
+            <label>Nom</label><br>
+            <input type="text" id="Nom" name="Nom"><br>
+            <label>Cognom</label><br>
+            <input type="text" id="Cognom" name="Cognom"><br>
+            <label>Edat</label><br>
+            <input type="number" id="Edat" name="Edat"><br>
+        </form><br>
+        <!-- El que es fa aquì és seleccionar el que vols cursar l'any que ve amb radio. -->
+        <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+        <form>
+            <label>DAM</label>
+            <input type="radio" name="cfgs" checked><br>
+            <label>ASIX</label>
+            <input type="radio" name="cfgs"><br>
+            <label>Altre...</label>
+            <input type="radio" name="cfgs"><br>
+        </form><br>
+        <!-- En aquesta part seleccionas las aficions que tens, esta fet amb un checkbox. -->
+        <p>Marca les teves aficions:</p>
+        <form>
+           <label>Estudiar</label> 
+           <input type="checkbox" checked><br>
+           <label>ASIX</label> 
+           <input type="checkbox"><br>
+           <label>Llibres</label> 
+           <input type="checkbox"><br>
+           <label>Jugar a Magix</label> 
+           <input type="checkbox"><br>
+           <label>Estudiar</label> 
+           <input type="checkbox"><br>
+           <label>Fer burilles</label> 
+           <input type="checkbox"><br>
+           <!-- Aquí si tens altres aficions ho escrius amb un textarea. -->
+           <label>Altres:</label><br>
+           <textarea name="message" rows="10" cols="50">
+           </textarea><br>
+        </form><br>
+        <!-- I per acabar esculls quin HTML t'agrada amb select -->
+        <form>
+            <label>L'estàndard d'HTML que més m'agrada:</label>
+            <select id="estàndard" name="estàndard">
+                <option value="HTML 4.01">HTML 4.01</option>
+                <option value="XHTML 1.0">XHTML 1.0</option>
+                <option value="HTML5" selected>HTML5</option>
+            </select>
+        </form>
+    </body>
+</html>

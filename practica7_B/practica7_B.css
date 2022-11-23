@@ -1,0 +1,36 @@
+#yellow{
+position: absolute;
+margin-top: 40px ;
+margin-left: 20px ;
+width: 160px;
+height: 120px;
+background-color: #fffc04;
+z-index: 3;
+}
+#blue{
+position: relative;
+margin-left: 20px ;
+margin-top: 20px ;
+width: 40px;
+height: 40px;
+background-color: #80a4d4;
+z-index: 4;
+}
+#green{
+position: absolute;
+margin-top: 140px ;
+margin-left: 100px ;
+width: 160px;
+height: 120px;
+background-color: #39ff9e;
+z-index: 1;
+}
+#red{
+position: relative;
+margin-left: 100px ;
+margin-top: 60px ;
+width: 40px;
+height: 40px;
+background-color: #ff3c3c;
+z-index: 2;
+}

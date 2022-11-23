@@ -1,0 +1,40 @@
+/* Css dels diferents blocs, cada bloc s'identifica amb un id, el qual indica el seu color */
+/* l'atribut "z-index" indica en quina posició z esta el element (s'utilitza per definir quin bloc esta davant d'altre)*/
+/* La posició del bloc "yellow" és relativa a la del "blue" (aquesta es absoluta)*/
+/* La posició del bloc "green" és relativa a la del "red" (aquesta es absoluta) */
+#blue{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 160px;
+    height: 120px;
+    background-color: #80a4d4;
+    z-index: 3;
+}
+#yellow{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fffc04;
+    z-index: 4;
+}
+#red{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 140px;
+    width: 160px;
+    height: 120px;
+    background-color: #ff3c3c;
+    z-index: 1;
+}
+#green{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 40px;
+    height: 40px;
+    background-color: #39ff9e;
+    z-index: 2;
+}

@@ -1,0 +1,15 @@
+div.head{
+    float: right;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    cursor: pointer;
+}
+button.boto{
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    padding: 9px 15px;
+    min-width: 80px;
+    margin-left: 8px;
+    border: 1px solid transparent; 
+    cursor: pointer;
+}

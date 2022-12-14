@@ -1,7 +1,33 @@
+/* Aqui esta el tamny del cos. */
 body.cos{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    display: block;
+    height: 704px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-width: 400px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    
+}
+/* En les següents comandes està la informació del header. */
+header.tamany{
     display: flex;
-    flex-direction: column;
-    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    width: 100%;
+    height: 60px;
+    margin: 0px 9px;
 }
 
 div.head{
@@ -10,7 +36,20 @@ div.head{
     flex-direction:row;
     align-items: center;
     cursor: pointer; 
-    float: right;
+}
+img.widget{
+    padding-top: 9px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a{
+    margin-right: 7px;
+    margin-left: 7px;
+    text-decoration: none;
 }
 button.boto{
     border-radius: 4px;
@@ -22,26 +61,35 @@ button.boto{
     border: 1px solid transparent; 
     cursor: pointer;
 }
-div.lloc{
+/* Aquí esta la informació del logo. */
+div.logo{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 92px;
-    max-height: 290px;
+    justify-content: center;
+    align-items: flex-end;
     height: calc(100% - 560px);
+    width: 100%;
+    height: 144px;
     flex-shrink: 0;
     box-sizing: border-box;
-    background-color: aqua;
+    
 }
-div.logo{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
+img.logo{
     width: auto;
-    height: 92px;
-    aspect-ratio: auto 272 / 92;
+    height: 92px; 
 }
+
+div.posició{
+    box-sizing: border-box;
+    display: block;
+    flex-shrink: 0;
+    max-height: 160px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+}
+/* En les comandas esta la informació del cos. */
 div.container{
     display: flex;
     height: 44px;
@@ -49,20 +97,60 @@ div.container{
     box-shadow: none;
     border-radius: 24px;
     margin: 0 auto;
-    width: 361px;
+    width: auto;
     max-width: 584px;
+    align-items: flex-start;
 
 }
-div.posició{
-    padding: 20px;
-    max-height: 160px;
-    flex-shrink: 0;
-    box-sizing: border-box;
-}
-div.butons{
-    height: 70px;
-    padding-top: 18px;
+img.busc{
     display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 22px;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+input.text{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 11px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+img.tec{
+    height: 20px;
+    width: 28px;
+    margin-top: 11px;
+    margin-right: 4px;
+}
+img.mic{
+    height: 26px;
+    width: 17px;
+    margin-top: 9px;
+    margin-right: 4px;
+}
+img.cam{
+    height: 20px;
+    width: 24px;
+    vertical-align: middle;
+    margin-top: 11px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+div.botons{
+    display: block;
+    text-align: -webkit-center;
 }
 button.boto1{
     background-color: #f8f9fa;
@@ -79,6 +167,7 @@ button.boto1{
     text-align: center;
     cursor: pointer;
     user-select: none;
+    
 }
 button.boto2{
     background-color: #f8f9fa;
@@ -96,3 +185,54 @@ button.boto2{
     cursor: pointer;
     user-select: none;
 }
+div.tradu{
+    height: 260px;
+    width: 100%;
+}
+div.idiomas{
+    display: flex;
+    justify-content: center;
+    height: 28px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    color: #4d5156;
+    
+
+}
+/* Aquí esta la informació del footer. */
+footer.foot{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 14px;
+}
+
+div.footPais{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 40px;
+    background-color: #f8f4f4;
+    border-bottom: 1px solid #dadce0;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #70757A;
+}
+div.footDades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    background-color: #f8f4f4;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757A;
+}
+
+    
+
